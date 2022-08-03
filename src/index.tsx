@@ -1,4 +1,4 @@
-import { add } from "./utility"
+import * as utility from './utility'
 
 const firstNumber = 2
 const secondNumber = 3
@@ -12,5 +12,5 @@ function showUser (user: string):string {
     return `Welcome, ${user}!` 
 }
 
-console.log(add(firstNumber, secondNumber))
+console.log(utility.add(firstNumber, secondNumber))
 console.log(showUser(userName))
